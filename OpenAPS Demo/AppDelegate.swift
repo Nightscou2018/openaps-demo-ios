@@ -9,7 +9,11 @@
 import UIKit
 
 let fixtures = [
-    (htmlFile: "2016-05-04_1951_hannemannopenaps.html", icon: "tab-a", title: "Chris")
+    (htmlFile: "2016-05-04_1951_hannemannopenaps.html", icon: "tab-a", title: "Dinner"),
+    (htmlFile: "2016-01-15_0357_naterade.html", icon: "tab-b", title: "Post-Dinner"),
+    (htmlFile: "2016-01-19_0657_naterade.html", icon: "tab-c", title: "Overnight"),
+    (htmlFile: "2016-02-21_0530_naterade.html", icon: "tab-d", title: "Dawn"),
+    (htmlFile: "2016-01-17_1422_naterade.html", icon: "tab-e", title: "Lunch"),
 ]
 
 @UIApplicationMain
