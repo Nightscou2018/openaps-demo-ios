@@ -1,0 +1,33 @@
+body {
+    font-family: -apple-system, sans-serif;
+}
+
+pre {
+    overflow-x: auto;
+}
+pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+#timeline {
+    -webkit-user-select: none;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#glucose_chart {
+    height: 244px;
+}
+
+#basal_chart, #carbs_chart, #iob_chart {
+    height: 144px;
+}
+
+@media screen and (max-width:767px) {
+    .browse-nav {
+        overflow-y: auto;
+        max-height: 160px;
+        -webkit-overflow-scrolling: touch;
+    }
+}

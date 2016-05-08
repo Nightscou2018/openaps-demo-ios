@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438DADD61CDEAC09007697A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DADD51CDEAC09007697A5 /* AppDelegate.swift */; };
+		438DADDD1CDEAC09007697A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438DADDB1CDEAC09007697A5 /* Main.storyboard */; };
+		438DADDF1CDEAC09007697A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438DADDE1CDEAC09007697A5 /* Assets.xcassets */; };
+		438DADE21CDEAC09007697A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438DADE01CDEAC09007697A5 /* LaunchScreen.storyboard */; };
+		438DADF31CDEC7D1007697A5 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DADF21CDEC7D1007697A5 /* WebViewViewController.swift */; };
+		438DADF51CDEC7E4007697A5 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DADF41CDEC7E4007697A5 /* NSFileManager.swift */; };
+		438DADF71CDECBE9007697A5 /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DADF61CDECBE9007697A5 /* NSBundle.swift */; };
+		438DADF91CDECC42007697A5 /* HTML in Resources */ = {isa = PBXBuildFile; fileRef = 438DADF81CDECC42007697A5 /* HTML */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		438DADD21CDEAC09007697A5 /* OpenAPS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenAPS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		438DADD51CDEAC09007697A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438DADDC1CDEAC09007697A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438DADDE1CDEAC09007697A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438DADE11CDEAC09007697A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438DADE31CDEAC09007697A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438DADF21CDEC7D1007697A5 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		438DADF41CDEC7E4007697A5 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
+		438DADF61CDECBE9007697A5 /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
+		438DADF81CDECC42007697A5 /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438DADCF1CDEAC09007697A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438DADC91CDEAC09007697A5 = {
+			isa = PBXGroup;
+			children = (
+				438DADF81CDECC42007697A5 /* HTML */,
+				438DADD41CDEAC09007697A5 /* OpenAPS Demo */,
+				438DADD31CDEAC09007697A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438DADD31CDEAC09007697A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438DADD21CDEAC09007697A5 /* OpenAPS Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438DADD41CDEAC09007697A5 /* OpenAPS Demo */ = {
+			isa = PBXGroup;
+			children = (
+				438DADE31CDEAC09007697A5 /* Info.plist */,
+				438DADD51CDEAC09007697A5 /* AppDelegate.swift */,
+				438DADDE1CDEAC09007697A5 /* Assets.xcassets */,
+				438DADF01CDEC785007697A5 /* Extensions */,
+				438DADE01CDEAC09007697A5 /* LaunchScreen.storyboard */,
+				438DADDB1CDEAC09007697A5 /* Main.storyboard */,
+				438DADF11CDEC7B4007697A5 /* View Controllers */,
+			);
+			path = "OpenAPS Demo";
+			sourceTree = "<group>";
+		};
+		438DADF01CDEC785007697A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				438DADF61CDECBE9007697A5 /* NSBundle.swift */,
+				438DADF41CDEC7E4007697A5 /* NSFileManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		438DADF11CDEC7B4007697A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				438DADF21CDEC7D1007697A5 /* WebViewViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438DADD11CDEAC09007697A5 /* OpenAPS Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438DADE61CDEAC09007697A5 /* Build configuration list for PBXNativeTarget "OpenAPS Demo" */;
+			buildPhases = (
+				438DADCE1CDEAC09007697A5 /* Sources */,
+				438DADCF1CDEAC09007697A5 /* Frameworks */,
+				438DADD01CDEAC09007697A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenAPS Demo";
+			productName = "OpenAPS Demo";
+			productReference = 438DADD21CDEAC09007697A5 /* OpenAPS Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438DADCA1CDEAC09007697A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nathan Racklyeft";
+				TargetAttributes = {
+					438DADD11CDEAC09007697A5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 438DADCD1CDEAC09007697A5 /* Build configuration list for PBXProject "OpenAPS Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438DADC91CDEAC09007697A5;
+			productRefGroup = 438DADD31CDEAC09007697A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438DADD11CDEAC09007697A5 /* OpenAPS Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438DADD01CDEAC09007697A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438DADE21CDEAC09007697A5 /* LaunchScreen.storyboard in Resources */,
+				438DADF91CDECC42007697A5 /* HTML in Resources */,
+				438DADDF1CDEAC09007697A5 /* Assets.xcassets in Resources */,
+				438DADDD1CDEAC09007697A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438DADCE1CDEAC09007697A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438DADF71CDECBE9007697A5 /* NSBundle.swift in Sources */,
+				438DADF51CDEC7E4007697A5 /* NSFileManager.swift in Sources */,
+				438DADF31CDEC7D1007697A5 /* WebViewViewController.swift in Sources */,
+				438DADD61CDEAC09007697A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		438DADDB1CDEAC09007697A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438DADDC1CDEAC09007697A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438DADE01CDEAC09007697A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438DADE11CDEAC09007697A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438DADE41CDEAC09007697A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438DADE51CDEAC09007697A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438DADE71CDEAC09007697A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenAPS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loudnate.OpenAPS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		438DADE81CDEAC09007697A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenAPS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loudnate.OpenAPS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438DADCD1CDEAC09007697A5 /* Build configuration list for PBXProject "OpenAPS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438DADE41CDEAC09007697A5 /* Debug */,
+				438DADE51CDEAC09007697A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438DADE61CDEAC09007697A5 /* Build configuration list for PBXNativeTarget "OpenAPS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438DADE71CDEAC09007697A5 /* Debug */,
+				438DADE81CDEAC09007697A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438DADCA1CDEAC09007697A5 /* Project object */;
+}
