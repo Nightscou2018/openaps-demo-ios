@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
+        window?.backgroundColor = UIColor.whiteColor()
+
         dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) { 
             let fileManager = NSFileManager.defaultManager()
 
